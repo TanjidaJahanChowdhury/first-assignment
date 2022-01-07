@@ -1,6 +1,7 @@
 h1{
     font-size: 50px;
 }
+
 .orange-color{
     color: orange;
 }
@@ -11,8 +12,9 @@ p{
     margin-right:30px ;
     width: 65%;
 }
-section{
+.flexible-container{
     display: flex;
+    padding-bottom: 15px;
 }
 .half-width{
     width: 50%;
@@ -30,4 +32,48 @@ section{
     border-radius: 5%;
     color: white;
     
+}
+.head-orange{
+    color: orange;
+    
+    
+}
+.head-align{
+    text-align: center;
+    margin: 0 auto;
+    padding-bottom: 80px;
+}
+.img-icon{
+    padding:5px;
+    width:150px;
+}
+#img-1{
+    width: 30%;
+    margin-left: 10%;
+    margin-right: 15px;
+    padding-left: 2%;
+    padding-right: 2%;
+    background-color:powderblue ;
+    box-shadow:10px 10px 2px white ;
+    border-radius:5%;   
+}
+#img-2{
+    width: 30%;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-left: 2%;
+    padding-right: 2%;
+    background-color:wheat;
+    box-shadow:10px 10px 2px white ;
+    border-radius:5%;
+}
+#img-3{
+    width: 30%;
+    margin-left: 10px;
+    margin-right: 10%;
+    padding-left: 2%;
+    padding-right: 2%;
+    background-color:plum ;
+    box-shadow:10px 10px 2px white ;
+    border-radius:5%;
 }
